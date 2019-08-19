@@ -1,0 +1,265 @@
+header {
+	background: #d8bf12;
+	padding: 15px;
+	font-size: 18px;
+	height: 88px;
+}
+
+.container-header {
+	max-width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wrapper {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+nav ul li {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 10px;
+}
+
+nav ul li:last-child {
+	padding-right: 0;
+}
+
+nav ul li  a {
+	transition: color .15s;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+nav ul li  a:hover {
+	color: #f00;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+.content-section {
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    min-height: calc(100vh - 138px);
+}
+
+.main-content {
+	background: white;
+    text-align: center;
+    width: calc(100% - 420px);
+    order: 2;
+    padding: 30px 10px;
+}
+
+.main-content:only-child {
+	width: 100%;
+}
+
+.column {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 210px;
+	justify-content: center;
+	padding: 15px;
+	text-transform: capitalize;
+}
+
+.left-column {
+	order: 1;
+	background: #cea2bf;
+}
+
+.right-column {
+	order: 3;
+	background: #a6b9ce;
+}
+
+footer {
+	background: green;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: flex-end;
+	justify-content: center;
+	min-height: 50px;
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+.row {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px 50px;
+}
+
+.col {
+	width: 33.332%;
+	padding: 0 10px 20px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.card {
+	transition: border-color, box-shadow .15s;
+	border-radius: 20px;
+	border: 2px solid #999;
+	padding: 0 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 18px;
+	height: 100%;
+	min-height: 335px;
+	cursor: pointer;
+}
+
+.card-body {
+	flex: 1 1 auto;
+}
+
+.card:hover {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+	border-color: #735b7f;
+}
+
+.image-block{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 15px solid #cdbfbf;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.btn {
+	transition: background .15s;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 600;
+	color: white;
+	border-radius: 3rem;
+	background: #735b7f;
+	padding: 10px;
+	min-width: 65px;
+}
+
+.btn:hover {
+	background: #4e3a58;
+}
+
+.holder {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border: 5px solid black;
+	width: 665px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 50px;
+	font-weight: 600;
+}
+
+.item {
+	width: 33.332%;
+}
+
+.item:nth-child(1),
+.item:nth-child(2) {
+	width: 50%;
+}
+
+.item:nth-child(1) {
+	background: #fc644d;
+}
+
+.item:nth-child(2) {
+	background: #fea429;
+}
+
+.item:nth-child(3) {
+	background: #633695;
+}
+
+.item:nth-child(4) {
+	background: #4983b1;
+}
+
+.item:nth-child(5) {
+	background: #0f7f11;
+}
+
+
+
+
